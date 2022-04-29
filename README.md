@@ -1,6 +1,28 @@
-# Getting Started with Create React App
+# IPFS Pastebin
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project builds a pastebin on IPFS. Specifically, this project saves users inputs to IPFS and generates a unique paste hash for them to share. User inputs can be encrypted so that only people who know both the paste hash and the corresponding password could retrieve the underlying input.
+
+This project is powered by web3.storage and IPFS.
+
+Live site: https://ipfs-pastebin.vercel.app/
+
+Youtube Demo: https://youtu.be/6wFoBPBYZwk
+
+## Installation
+
+```shell
+git clone https://github.com/Soptq/ipfs-pastebin
+cd ipfs-pastebin
+npm install
+```
+
+## Configuration
+
+```shell
+cp .env.example .env
+```
+
+Then apply a free api key on web3.storage, and fill it in the .env file.
 
 ## Available Scripts
 
