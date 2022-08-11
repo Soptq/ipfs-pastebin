@@ -8,6 +8,8 @@ This project is powered by web3.storage and IPFS.
 
 Live site: https://ipfs-pastebin.vercel.app/
 
+Hosted on IPFS: https://pasteplanet.x/
+
 Youtube Demo: https://youtu.be/G1KF_ZpbE9c
 
 ## Installation
