@@ -1,5 +1,7 @@
 # IPFS Pastebin
 
+![Project Thumbnail](./thumb.jpeg)
+
 This project builds a pastebin on IPFS. Specifically, this project saves users inputs to IPFS and generates a unique paste hash for them to share. User inputs can be encrypted so that only people who know both the paste hash and the corresponding password could retrieve the underlying input.
 
 This project is powered by web3.storage and IPFS.
